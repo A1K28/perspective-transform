@@ -8,7 +8,7 @@ if __name__ == "__main__":
     # cap = cv2.VideoCapture(0)
     while True:
         # ret, frame = cap.read()
-        frame = cv2.imread('frame.png', 0) 
+        frame = cv2.imread('media/frame.png', 0) 
       
         # Locate points of the documents or object which you want to transform
         pts1 = np.float32([[0, 0], [width-80, 200], [0, height], [width-80, 450]])
