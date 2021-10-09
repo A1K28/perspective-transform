@@ -11,7 +11,7 @@ if __name__ == "__main__":
         frame = cv2.imread('media/frame.png', 0) 
       
         # Locate points of the documents or object which you want to transform
-        pts1 = np.float32([[0, 0], [width-80, 200], [0, height], [width-80, 450]])
+        pts1 = np.float32([[52, 38], [527, 191], [89, 562], [536, 442]])
         pts2 = np.float32([[0, 0], [width, 0], [0, height], [width, height]])
           
         # Apply Perspective Transform Algorithm
